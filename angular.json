@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "scully-blog": {
+    "DevBugFix": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "scully-blog:build"
+            "browserTarget": "DevBugFix:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "scully-blog:build:production"
+              "browserTarget": "DevBugFix:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "scully-blog:build"
+            "browserTarget": "DevBugFix:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "scully-blog:serve"
+            "devServerTarget": "DevBugFix:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "scully-blog:serve:production"
+              "devServerTarget": "DevBugFix:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "scully-blog"
+  "defaultProject": "DevBugFix"
 }
