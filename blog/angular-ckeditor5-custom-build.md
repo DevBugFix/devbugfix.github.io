@@ -1,9 +1,9 @@
 ---
-title: 2021-02-20-blog
+title: Angular 10 CKEditor 5 from  online custom  & Github Build
 description: imilar to the contextual text
 published: true
-bannerURL: https://d33wubrfki0l68.cloudfront.net/2169b8db4a36e18df0d5b3023f2fa10d6cee0d96/114a2/assets/image-6.jpg
-slug: my-first-post-1
+bannerURL: /assets/img/ckeditor5-custom-build.PNG
+date: February 25, 2020
 ---
 
 # 2021-02-20-blog

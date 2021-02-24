@@ -1,11 +1,10 @@
 ---
-title: Flexbox
+title: Angular CKEditor 5 Upload Image With C# API 
 description: Quickly manage the layout, alignment
 published: true
-bannerURL: https://coder-coder.com/wp-content/uploads/2020/03/media_query_1920x1080.jpg
+bannerURL: /assets/img/ckedior5-image-upload.PNG
 blogId: 2
-slug: my-first-post-2
-
+date: February 25, 2020
 ---
 
 # my first post
