@@ -1,0 +1,15 @@
+<div class="container mt-5">
+  <div class="row gy-5 gx-5">
+    <div class="col-md-4 col-sm-12 col-xs-12" *ngFor="let post of posts |async">
+      <article class="card ">
+        <a [routerLink]="post.route"><img src="{{post.bannerURL}}" alt="{{post.title}}"></a>
+        <header>
+          <h2 class="post-title">
+            <a class="post-link" [routerLink]="post.route">Hello World: The remark Kitchen Sink</a>
+          </h2>
+          <div class="post-meta">February 21, 2020</div>
+        </header>
+      </article>
+    </div>
+  </div>
+</div>

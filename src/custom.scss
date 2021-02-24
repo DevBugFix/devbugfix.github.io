@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+$theme-colors: ("primary": #d17070,"background": #fff,"card-bg": #fff,"card-bdr": #eee,"card-shadow": #d5d5d5,"contact-bdr": #d3d6e7);
+
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: fakt-web, Helvetica Neue, Hevetica, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+}
+.post-link {
+  color: var(--text-color);
+  text-decoration: none;
+}
+ .card .post-meta {
+  font-weight: 100;
+  margin-bottom: 0;
+  font-size: .8rem;
+}
+
+.card .post-title {
+  // font-size: 1.2rem;
+  margin-bottom: .3rem;
+}
+.card  header {
+  padding: 24px;
+}
+.card img{
+  max-width: 100%;
+}
+
+.article-content{
+  max-width: 750px;
+}
